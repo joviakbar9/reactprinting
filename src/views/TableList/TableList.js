@@ -48,22 +48,19 @@ export default function TableList() {
       <GridItem xs={12} sm={12} md={12}>
         <Card>
           <CardHeader color="primary">
-            <h4 className={classes.cardTitleWhite}>Simple Table</h4>
-            <p className={classes.cardCategoryWhite}>
-              Here is a subtitle for this table
-            </p>
+            <h4 className={classes.cardTitleWhite}>Data Pemesanan</h4>
           </CardHeader>
           <CardBody>
             <Table
               tableHeaderColor="primary"
-              tableHead={["Name", "Country", "City", "Salary"]}
+              tableHead={["No.", "No. Nota", "Nama", "Tanggal Pesan", "Tanggal Selesai", "Status Pembayaran"]}
               tableData={[
-                ["Dakota Rice", "Niger", "Oud-Turnhout", "$36,738"],
-                ["Minerva Hooper", "Curaçao", "Sinaai-Waas", "$23,789"],
-                ["Sage Rodriguez", "Netherlands", "Baileux", "$56,142"],
-                ["Philip Chaney", "Korea, South", "Overland Park", "$38,735"],
-                ["Doris Greene", "Malawi", "Feldkirchen in Kärnten", "$63,542"],
-                ["Mason Porter", "Chile", "Gloucester", "$78,615"]
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
+                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"]
               ]}
             />
           </CardBody>
