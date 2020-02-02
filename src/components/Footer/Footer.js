@@ -15,26 +15,16 @@ export default function Footer(props) {
   return (
     <footer className={classes.footer}>
       <div className={classes.container}>
-        <div className={classes.left}>
-          <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a href="#home" className={classes.block}>
-                Home
-              </a>
-            </ListItem>
-          </List>
-        </div>
         <p className={classes.right}>
           <span>
             &copy; {1900 + new Date().getYear()}{" "}
             <a
-              href="https://www.creative-tim.com?ref=mdr-footer"
-              target="_blank"
+              href="#"
               className={classes.a}
             >
-              Creative Tim
+              Gajayana Digital Printing
             </a>
-            , made with love for a better web
+            . All rights reserved
           </span>
         </p>
       </div>
