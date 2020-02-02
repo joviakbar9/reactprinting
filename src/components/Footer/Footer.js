@@ -32,9 +32,9 @@ export default function Footer(props) {
               target="_blank"
               className={classes.a}
             >
-              Creative Tim
+              Gajayana Digital Printing
             </a>
-            , made with love for a better web
+            . All rights reserved
           </span>
         </p>
       </div>
