@@ -122,7 +122,7 @@ export default function AdminNavbarLinks() {
                       onClick={handleCloseNotification}
                       className={classes.dropdownItem}
                     >
-                      Mike John responded to your email
+                      Open message
                     </MenuItem>
                     <MenuItem
                       onClick={handleCloseNotification}

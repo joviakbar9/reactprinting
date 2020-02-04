@@ -8,6 +8,8 @@ import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+import Button from "components/CustomButtons/Button.js";
+import CardFooter from "components/Card/CardFooter.js";
 
 const styles = {
   cardCategoryWhite: {
@@ -64,6 +66,9 @@ export default function TableList() {
               ]}
             />
           </CardBody>
+          <CardFooter>
+            <Button color="info">Create Order</Button>
+          </CardFooter>
         </Card>
       </GridItem>
     </GridContainer>
