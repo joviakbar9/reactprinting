@@ -57,12 +57,12 @@ export default function TableList() {
               tableHeaderColor="primary"
               tableHead={["No.", "No. Nota", "Nama", "Tanggal Pesan", "Tanggal Selesai", "Status Pembayaran"]}
               tableData={[
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"]
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"],
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"],
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"],
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"],
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"],
+                ["1", "	GD8801097701", "Reza Ramadhan", "01/09/2020", "02/09/2020", "Lunas"]
               ]}
             />
           </CardBody>

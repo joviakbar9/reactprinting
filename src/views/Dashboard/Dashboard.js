@@ -57,14 +57,14 @@ export default function TableList() {
               tableHeaderColor="primary"
               tableHead={["No.", "Nama", "Email", "Bagian", "Tanggal"]}
               tableData={[
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"],
-                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "19/01/2018"]
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"]
               ]}
             />
           </CardBody>
