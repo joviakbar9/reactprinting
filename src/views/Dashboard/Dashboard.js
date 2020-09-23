@@ -8,6 +8,8 @@ import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+import Button from "components/CustomButtons/Button.js";
+import CardFooter from "components/Card/CardFooter.js";
 
 const styles = {
   cardCategoryWhite: {
@@ -53,17 +55,22 @@ export default function TableList() {
           <CardBody>
             <Table
               tableHeaderColor="primary"
-              tableHead={["No.", "No. Nota", "Nama", "Tanggal Pesan", "Tanggal Selesai", "Status Pembayaran"]}
+              tableHead={["No.", "Nama", "Email", "Bagian", "Tanggal"]}
               tableData={[
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"],
-                ["1", "	GD8811608191", "Reza Ramadhan", "16/01/2020", "19/01/2020", "Lunas"]
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"],
+                ["1", "Reza Ramadhan", "rezaramadhan@gmail.com", "Kasir", "01/09/2017"]
               ]}
             />
           </CardBody>
+          <CardFooter>
+            <Button color="info">Tambah Data</Button>
+          </CardFooter>
         </Card>
       </GridItem>
     </GridContainer>
